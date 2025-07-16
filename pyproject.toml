@@ -1,0 +1,17 @@
+[project]
+name = "tailflow-forecasting"
+version = "0.1.0"
+description = "Time series forecasting app with Streamlit and Prophet"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.28.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "plotly>=5.15.0",
+    "prophet>=1.1.0",
+    "ipykernel>=6.29.5",
+    "seaborn>=0.13.2",
+    "ipywidgets>=8.1.7",
+    "scikit-learn>=1.7.0",
+]
